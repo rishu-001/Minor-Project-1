@@ -65,9 +65,7 @@ https://www.kaggle.com/datasets/ninzaami/loan-predication
 The following supervised learning algorithms were implemented and compared:
 
 - Logistic Regression
-- Decision Tree Classifier
 - Random Forest Classifier
-- K-Nearest Neighbors (KNN)
 - Support Vector Machine (SVM)
 
 ---
@@ -122,46 +120,15 @@ The models were evaluated using:
 
 | Model | Accuracy |
 |--------|----------|
-| Logistic Regression | -- |
-| Decision Tree | -- |
-| Random Forest | -- |
-| KNN | -- |
-| SVM | -- |
+| Logistic Regression | 0.788618 |
+| Random Forest | 0.756098 |
+| SVM | 0.788618 |
 
-> Replace the above values with your obtained accuracies after running the notebook.
+
 
 ---
 
-# 📁 Project Structure
 
-```
-Loan-Approval-Prediction/
-│
-├── data/
-│   └── loan_prediction.csv
-│
-├── model/
-│   └── loan_prediction_model.pkl
-│
-├── notebook/
-│   └── Loan_Approval_Prediction.ipynb
-│
-├── results/
-│   ├── loan_status_distribution.png
-│   ├── gender_vs_loan.png
-│   ├── education_vs_loan.png
-│   ├── credit_history_vs_loan.png
-│   ├── applicant_income_distribution.png
-│   ├── loan_amount_distribution.png
-│   ├── correlation_heatmap.png
-│   ├── confusion_matrix.png
-│   ├── feature_importance.png
-│   └── model_accuracy_comparison.png
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
 
 ---
 
